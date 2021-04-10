@@ -2,8 +2,8 @@ const Discord = require('discord.js');
 const bot = new Discord.Client();
 
 bot.on('ready', () => {
-    console.log('+ ' + bot.user.tag);
-})
+  console.log(`Logged in as ${bot.user.tag}!`);
+});
 
 bot.on('message', message => {
     if(message.content == 'физика понедельник') message.channel.send('Понеділок. Ідентификатор: 791 1173 5768. Код доступа: 7')
@@ -45,9 +45,11 @@ bot.on('message', message => {
     if(message.content == 'английский ЛО') message.channel.send('Код: 4294474020. Пароль 4Qj4cL')
     if(message.content == 'информатика 2 код') message.channel.send('Идентификатор конференции: 761 9784 4597. Код доступа: 7cpYAi')
     if(message.content == 'информатика 2 ссылка') message.channel.send('https://us04web.zoom.us/j/76197844597?pwd=NG5SME9sOVRyaEFmMnBzT3lVWCs1Zz09')
-
+    if(message.content == 'бб я спать') message.channel.send('https://cdn.discordapp.com/attachments/720363306828693515/829308710181928980/EXv4iBvWoAE9zjD.jpg')
+    if(message.content == 'всем бб я спать') message.channel.send('https://cdn.discordapp.com/attachments/720363306828693515/829308710181928980/EXv4iBvWoAE9zjD.jpg')
+    if(message.content == 'кровать') message.channel.send('https://cdn.discordapp.com/attachments/720363306828693515/829308710181928980/EXv4iBvWoAE9zjD.jpg')
+    if(message.content == 'бб всем') message.channel.send('https://cdn.discordapp.com/attachments/720363306828693515/829308710181928980/EXv4iBvWoAE9zjD.jpg')
 
 
 })
-
-bot.login('ODMwMzc1MjE0OTEwMTQ0NTgy.YHFxLg.NV98O5IA88eEAsLhS_5kohXFL5M');
+bot.login('ODMwMzc1MjE0OTEwMTQ0NTgy.YHFxLg.NV98O5IA88eEAsLhS_5kohXFL5M')
