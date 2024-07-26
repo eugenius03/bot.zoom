@@ -1,7 +1,7 @@
 settings = {
- 'token' : 'ODMwMzc1MjE0OTEwMTQ0NTgy.YHFxLg.NV98O5IA88eEAsLhS_5kohXFL5M',
+ 'token' : 'динаху',
  'bot' : 'debil228',	
- 'id' : 830528134176178217,
+ 'id' : мое,
  'prefix' : '.'
 }
 	
